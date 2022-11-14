@@ -793,7 +793,7 @@ module.exports = async (sock, msg) => {
                         body: 'Touch here.',
                         renderLargerThumbnail: true,
                         thumbnailUrl: ``,
-                        thumbnail: log0,
+                        thumbnail: 'https://img-9gag-fun.9cache.com/photo/aZrwqA3_460s.jpg',
                         mediaType: 2,
                         mediaUrl: '',
                         sourceUrl: 'https://wa.me/+9372521352?text=Hii bro,I am ' + senderName,
@@ -1756,7 +1756,7 @@ URL:~> ${con.content_urls.mobile.page}
                 ┃  ╰─────────────◆
                 ╰━━━━━━━━━━━──⊷`
             const ayanoimg = ['https://wallpapers.com/images/high/kiyotaka-ayanokoji-in-classroom-nt1gqvnjaw84t5cl-nt1gqvnjaw84t5cl.jpg', 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ac76d31c-a0fb-4e57-bfd9-4ba65c7de2e1/df5fjhy-052f4f33-8abb-4580-9ae5-5e462441bdac.png/v1/fill/w_770,h_500,q_80,strp/ayanokouji_kiyotaka_by_hyouei_df5fjhy-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTAwIiwicGF0aCI6IlwvZlwvYWM3NmQzMWMtYTBmYi00ZTU3LWJmZDktNGJhNjVjN2RlMmUxXC9kZjVmamh5LTA1MmY0ZjMzLThhYmItNDU4MC05YWU1LTVlNDYyNDQxYmRhYy5wbmciLCJ3aWR0aCI6Ijw9NzcwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.f9_bVggrIBB_rJgKSQTMZl1fLkTKg8ZjAVPtKEqspvQ', 'https://img-9gag-fun.9cache.com/photo/aZrwqA3_460s.jpg', 'https://i.pinimg.com/originals/1b/6c/f9/1b6cf9f784f04a3094485a95193a9054.jpg', 'https://wallpapercave.com/wp/wp6238977.png', 'https://wallpapers.com/images/high/kiyotaka-ayanokoji-in-pink-qs33qgqm79ccsq7n-qs33qgqm79ccsq7n.jpg', 'https://i.pinimg.com/originals/93/13/68/93136842d12d5865931e2950d351c81a.png', 'https://i.pinimg.com/originals/3a/15/a3/3a15a349b478f236f026cb52ab7bc984.jpg', 'https://animecorner.me/wp-content/uploads/2022/10/kiyotaka-ayanokoji-best-boy-summer-2022-anime-season.jpg?ezimgfmt=ng%3Awebp%2Fngcb21%2Frs%3Adevice%2Frscb21-1', 'https://otakukart.com/wp-content/uploads/2022/05/Classroom-of-the-Elite.jpg']
-            const madachh = ayanoimg[Math.floor(Math.random() * Mikutttt.length)]
+            const madachh = ayanoimg[Math.floor(Math.random() * ayanoimg.length)]
             try {
                 sock.sendMessage(
                     from, {
