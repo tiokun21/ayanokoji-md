@@ -199,5 +199,5 @@ app.listen(PORT, () => {
 });
 setInterval(async function () {
     appName = process.env.APPNAME
-    await axios.get(`http://${appName}.herokuapp.com`);
+    await axios.get(`https://ayanokoji-md.onrender.com`);
 }, 3 * 60 * 1000);
